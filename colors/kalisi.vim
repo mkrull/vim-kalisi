@@ -68,7 +68,7 @@ if &background == "dark"
 
   hi Special	      guifg=#e7f6da gui=none
   hi SpecialChar      guifg=#6a96ff
-  hi SpecialKey	      guifg=#d6f3d8 guibg=#343434 gui=bold
+  hi SpecialKey	      guifg=#958b7f gui=bold
 
   hi Tag              guifg=#00c0ff               gui=bold
   hi Delimiter        guifg=#7a9acd guibg=NONE    gui=none
@@ -125,7 +125,7 @@ if &background == "dark"
   hi FoldColumn       guifg=#b0b8c0 guibg=#373d43 gui=bold
   hi Folded 	      guifg=#727780 guibg=#373d43 gui=none
 
-  hi NonText          guifg=#958b7f guibg=#3a3a3a gui=none
+  hi NonText          guifg=#958b7f gui=none
   hi Conceal          guifg=#f6f3e8 guibg=#303030
 
   hi LineNr 	      guifg=#857b6f guibg=#303032 gui=none
@@ -219,7 +219,7 @@ if &background == "dark"
     hi Normal ctermbg=238 ctermfg=249
     hi CursorLine ctermbg=239 term=none cterm=none
     hi CursorColumn ctermbg=239
-    hi NonText ctermbg=237 ctermfg=102
+    hi NonText ctermfg=102
     hi Conceal ctermbg=237 ctermfg=230
     hi Comment ctermfg=243
     hi CommentURL cterm=underline ctermfg=68
@@ -250,7 +250,7 @@ if &background == "dark"
     hi Typedef ctermfg=72
     hi Special ctermfg=194 cterm=none
     hi SpecialChar ctermfg=69 cterm=none
-    hi SpecialKey ctermbg=236 ctermfg=194 cterm=bold
+    hi SpecialKey ctermfg=102 cterm=bold
     hi Tag cterm=bold ctermfg=39
     hi Delimiter ctermfg=104
     hi SpecialComment cterm=bold ctermfg=67
@@ -370,7 +370,7 @@ else
   " html: special keywords in jscript: window log
   hi Keyword          guifg=#66b600               gui=none
   hi Title            guifg=#1060a0 guibg=NONE    gui=bold
-  hi NonText          guifg=#000000 guibg=#e6e6e6 gui=none
+  hi NonText          guifg=#000000 gui=none
 
   hi Conceal          guifg=#303030 guibg=#e0e8e0
 
@@ -534,7 +534,7 @@ else
     hi Typedef ctermfg=25
     hi Special cterm=bold ctermfg=214
     hi SpecialChar cterm=bold ctermfg=197
-    hi SpecialKey cterm=bold ctermbg=252 ctermfg=202
+    hi SpecialKey cterm=bold ctermfg=16
     hi Tag cterm=bold ctermfg=21
     hi Delimiter ctermfg=161
     hi Debug cterm=bold ctermfg=178
@@ -545,7 +545,7 @@ else
     hi Directory cterm=bold ctermfg=25
     hi Keyword ctermfg=70
     hi Title cterm=bold ctermfg=25
-    hi NonText ctermbg=253 ctermfg=16
+    hi NonText ctermfg=16
     hi Conceal ctermbg=253 ctermfg=236
     hi DiffAdd ctermbg=194
     hi DiffChange ctermbg=254
